@@ -1,6 +1,8 @@
 # Default settings for Qwen inference through Tinker.
 # Command-line flags override these values, e.g. --max-tokens 32768.
 base_model: Qwen/Qwen3.8-27B
+# Optional inference LoRA adapter. Leave this commented out to sample the base model.
+# model_path: tinker://<session>:train:0/sampler_weights/<checkpoint-name>
 project_id: 14017256-055e-4590-a166-c4d55c6154a6
 renderer: qwen3_8_medium_reasoning   # start at medium: xhigh exhausts max_tokens while still thinking
 concurrency: 100
