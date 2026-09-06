@@ -1,8 +1,8 @@
-# Submission: Gherkas
+# Submission: Gherkers
 
 ## Team
 
-- Team name: Gherkas
+- Team name: Gherkers
 - Members, one GitHub handle per line:
   - Lorcan7274
   - saimaanav
